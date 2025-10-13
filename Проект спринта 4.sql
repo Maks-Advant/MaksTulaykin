@@ -125,8 +125,3 @@ FROM total_players_by_race t
 JOIN players_with_purchases p ON t.race_name = p.race_name
 JOIN player_activity a ON t.race_name = a.race_name
 ORDER BY t.race_name;
--- Воспользовался онлайн форматированием - https://sqlformat.org/. но с коментами не работает, если поставить галочку убрать коменты то работает
-
-
--- Задача 2: Частота покупок
--- Напишите ваш запрос здесь
